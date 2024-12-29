@@ -1,0 +1,105 @@
+nav.navbar {
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+.card-img-top.beras {
+  height: 235px;
+}
+
+#montecarlo1 {
+  background-color: #e2edff;
+}
+
+#hasil {
+  background-color: #e2edff;
+}
+
+#montecarlo .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #ffffff; /* Warna latar belakang */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: auto;
+}
+
+#montecarlo h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#montecarlo form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+#montecarlo form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#montecarlo button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#montecarlo button:hover {
+  background-color: #0056b3;
+}
+
+#hasil h2 {
+  margin-top: 20px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ddd; /* Menambahkan border pada setiap sel */
+  padding: 8px;
+  text-align: center;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+}
+
+.custom-table td {
+  background-color: #fff;
+}
+
+.custom-table tr:hover {
+  background-color: #f1f1f1;
+}
